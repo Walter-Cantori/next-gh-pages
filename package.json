@@ -1,4 +1,5 @@
 {
+  "homepage": "http://walter-cantori.github.io/next-gh-pages",
   "name": "test-next-git",
   "version": "0.1.0",
   "private": true,
@@ -14,5 +15,8 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "swr": "^0.2.3"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-define": "^2.0.0"
   }
 }
