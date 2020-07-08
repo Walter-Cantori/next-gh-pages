@@ -26,6 +26,7 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <title>My page</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        <meta name="Description" content="Testing next js and its stuff"></meta>
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
