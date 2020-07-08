@@ -2,6 +2,7 @@ import useSWR from 'swr'
 import Link from 'next/link'
 
 import styles from './page2.module.css'
+import Button from '@material-ui/core/Button';
 
 export default function Page2() {
   const fetcher = (...args) => fetch(...args).then(res => res.json())
@@ -16,6 +17,9 @@ export default function Page2() {
       <Link href="/" as={process.env.BACKEND_URL + '/'}>
         <a>Home</a>
       </Link>
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
     </>
   )
 }
