@@ -1,1 +1,0 @@
-self.__BUILD_MANIFEST = {"/page2":["static\u002Fcss\u002F2d9d58f4ac6d5048ddbb.css"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
